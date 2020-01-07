@@ -17,6 +17,15 @@
     <mapping class="asmovieDao.Customer"/>
     <mapping class="asmovieDao.User"/>
     <mapping class ="asmovieDao.Genre"/>
+    <mapping class="asmovieDao.Studio"/>
+    <mapping class="asmovieDao.Land"/>
+    <mapping class="asmovieDao.Sprache"/>
+    <mapping class="asmovieDao.Person"/>
+
+
+
+
+
 
   </session-factory>
 </hibernate-configuration>

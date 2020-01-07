@@ -13,6 +13,11 @@
         <class>asmovieDao.User</class>
         <class>asmovieDao.Customer</class>
         <class>asmovieDao.Genre</class>
+        <class>asmovieDao.Studio</class>
+        <class>asmovieDao.Land</class>
+        <class>asmovieDao.Sprache</class>
+        <class>asmovieDao.Person</class>
+
 
         <properties>
 

@@ -13,10 +13,11 @@
     <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQL94Dialect</property>
     <!-- DB schema will be updated if needed -->
     <property name="hibernate.hbm2ddl.auto">create-drop</property>
-    <mapping class="asmovieModel.Media"/>
-    <mapping class="asmovieModel.Customer"/>
-    <mapping class="asmovieModel.User"/>
-    <mapping class ="asmovieModel.Genre"/>
+    <mapping class="asmovieDao.Media"/>
+    <mapping class="asmovieDao.Customer"/>
+    <mapping class="asmovieDao.User"/>
+    <mapping class ="asmovieDao.Genre"/>
+
 
 
   </session-factory>

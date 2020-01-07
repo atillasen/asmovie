@@ -3,7 +3,7 @@
   <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.17">
     <root id="1">
       <ServerVersion>9.6.16</ServerVersion>
-      <StartupTime>1577554872</StartupTime>
+      <StartupTime>1578151052</StartupTime>
     </root>
     <database id="2" parent="1" name="postgis_25_sample">
       <ObjectId>16393</ObjectId>
@@ -13,8 +13,10 @@
       <ObjectId>12401</ObjectId>
       <Comment>default administrative connection database</Comment>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>740</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1203</IntrospectionStateNumber>
       <Current>1</Current>
+      <Relations>sequence|table|68651|68653|1
+</Relations>
     </database>
     <role id="4" parent="1" name="pg_signal_backend">
       <ObjectId>4200</ObjectId>
@@ -37,7 +39,7 @@
       <ObjectId>18853</ObjectId>
       <StateNumber>569</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>741</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1204</IntrospectionStateNumber>
     </schema>
     <schema id="8" parent="3" name="pg_catalog">
       <ObjectId>11</ObjectId>
@@ -116,322 +118,332 @@
       <SchemaName>pg_catalog</SchemaName>
       <SchemaId>11</SchemaId>
     </extension>
-    <table id="18" parent="7" name="altersfreigabe">
-      <ObjectId>27083</ObjectId>
+    <sequence id="18" parent="7" name="customer_id_seq">
+      <ObjectId>68651</ObjectId>
+      <StateNumber>1187</StateNumber>
       <Owner>postgres</Owner>
-      <StateNumber>656</StateNumber>
-    </table>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+    </sequence>
     <table id="19" parent="7" name="customer">
-      <ObjectId>35240</ObjectId>
+      <ObjectId>68653</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>716</StateNumber>
+      <StateNumber>1187</StateNumber>
     </table>
     <table id="20" parent="7" name="genre">
-      <ObjectId>27071</ObjectId>
+      <ObjectId>68659</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>726</StateNumber>
+      <StateNumber>1202</StateNumber>
     </table>
     <table id="21" parent="7" name="land">
-      <ObjectId>27054</ObjectId>
+      <ObjectId>68664</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>664</StateNumber>
+      <StateNumber>1189</StateNumber>
     </table>
     <table id="22" parent="7" name="media">
-      <ObjectId>27045</ObjectId>
+      <ObjectId>68669</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>727</StateNumber>
+      <StateNumber>1200</StateNumber>
     </table>
-    <table id="23" parent="7" name="sprache">
-      <ObjectId>27060</ObjectId>
+    <table id="23" parent="7" name="movieandgenres">
+      <ObjectId>68677</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>670</StateNumber>
+      <StateNumber>1198</StateNumber>
     </table>
-    <table id="24" parent="7" name="studio">
-      <ObjectId>27077</ObjectId>
+    <table id="24" parent="7" name="movieandstudio">
+      <ObjectId>68680</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>673</StateNumber>
+      <StateNumber>1200</StateNumber>
     </table>
-    <table id="25" parent="7" name="user">
-      <ObjectId>35237</ObjectId>
+    <table id="25" parent="7" name="studio">
+      <ObjectId>68683</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>718</StateNumber>
+      <StateNumber>1199</StateNumber>
     </table>
-    <column id="26" parent="18" name="id">
+    <table id="26" parent="7" name="user">
+      <ObjectId>68688</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>1194</StateNumber>
+    </table>
+    <column id="27" parent="19" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1187</StateNumber>
+      <DefaultExpression>nextval(&apos;moviedb.customer_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="28" parent="19" name="customer">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <StateNumber>1187</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="29" parent="19" name="customer_pkey">
+      <ObjectId>68657</ObjectId>
+      <StateNumber>1187</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="30" parent="19" name="customer_pkey">
+      <ObjectId>68658</ObjectId>
+      <StateNumber>1187</StateNumber>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>customer_pkey</UnderlyingIndexName>
+    </key>
+    <column id="31" parent="20" name="id">
       <Position>1</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>656</StateNumber>
+      <StateNumber>1188</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="27" parent="18" name="altersfreigabe">
+    <column id="32" parent="20" name="genre">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>656</StateNumber>
+      <StateNumber>1188</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <index id="28" parent="18" name="altersfreigabe_id_uindex">
-      <ObjectId>27086</ObjectId>
-      <StateNumber>657</StateNumber>
-      <ColNames>id</ColNames>
-      <Unique>1</Unique>
-    </index>
-    <index id="29" parent="18" name="altersfreigabe_pk">
-      <ObjectId>27087</ObjectId>
-      <StateNumber>658</StateNumber>
+    <index id="33" parent="20" name="genre_pkey">
+      <ObjectId>68662</ObjectId>
+      <StateNumber>1188</StateNumber>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
     </index>
-    <key id="30" parent="18" name="altersfreigabe_pk">
-      <ObjectId>27088</ObjectId>
-      <StateNumber>658</StateNumber>
+    <key id="34" parent="20" name="genre_pkey">
+      <ObjectId>68663</ObjectId>
+      <StateNumber>1188</StateNumber>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
-      <UnderlyingIndexName>altersfreigabe_pk</UnderlyingIndexName>
+      <UnderlyingIndexName>genre_pkey</UnderlyingIndexName>
     </key>
-    <column id="31" parent="19" name="id">
-      <Position>1</Position>
-      <DataType>bigint|0s</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>715</StateNumber>
-      <TypeId>20</TypeId>
-    </column>
-    <column id="32" parent="19" name="customer">
-      <Position>2</Position>
-      <DataType>varchar(255)|0s</DataType>
-      <StateNumber>716</StateNumber>
-      <TypeId>1043</TypeId>
-    </column>
-    <column id="33" parent="20" name="id">
+    <column id="35" parent="21" name="id">
       <Position>1</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>637</StateNumber>
+      <StateNumber>1189</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="34" parent="20" name="genre">
+    <column id="36" parent="21" name="land">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>637</StateNumber>
+      <StateNumber>1189</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <index id="35" parent="20" name="genre_id_uindex">
-      <ObjectId>27074</ObjectId>
-      <StateNumber>638</StateNumber>
-      <ColNames>id</ColNames>
-      <Unique>1</Unique>
-    </index>
-    <index id="36" parent="20" name="genre_pk">
-      <ObjectId>27075</ObjectId>
-      <StateNumber>639</StateNumber>
+    <index id="37" parent="21" name="land_pkey">
+      <ObjectId>68667</ObjectId>
+      <StateNumber>1189</StateNumber>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
     </index>
-    <key id="37" parent="20" name="genre_pk">
-      <ObjectId>27076</ObjectId>
-      <StateNumber>639</StateNumber>
+    <key id="38" parent="21" name="land_pkey">
+      <ObjectId>68668</ObjectId>
+      <StateNumber>1189</StateNumber>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
-      <UnderlyingIndexName>genre_pk</UnderlyingIndexName>
+      <UnderlyingIndexName>land_pkey</UnderlyingIndexName>
     </key>
-    <column id="38" parent="21" name="id">
+    <column id="39" parent="22" name="id">
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>614</StateNumber>
+      <StateNumber>1190</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <column id="39" parent="21" name="land">
+    <column id="40" parent="22" name="imdbid">
       <Position>2</Position>
-      <DataType>varchar(255)|0s</DataType>
-      <StateNumber>612</StateNumber>
-      <TypeId>1043</TypeId>
-    </column>
-    <index id="40" parent="21" name="land_id_uindex">
-      <ObjectId>27057</ObjectId>
-      <StateNumber>613</StateNumber>
-      <ColNames>id</ColNames>
-      <Unique>1</Unique>
-    </index>
-    <index id="41" parent="21" name="land_pk">
-      <ObjectId>27058</ObjectId>
-      <StateNumber>614</StateNumber>
-      <ColNames>id</ColNames>
-      <Unique>1</Unique>
-      <Primary>1</Primary>
-    </index>
-    <key id="42" parent="21" name="land_pk">
-      <ObjectId>27059</ObjectId>
-      <StateNumber>614</StateNumber>
-      <ColNames>id</ColNames>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>land_pk</UnderlyingIndexName>
-    </key>
-    <column id="43" parent="22" name="id">
-      <Position>1</Position>
       <DataType>bigint|0s</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>607</StateNumber>
+      <StateNumber>1190</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <column id="44" parent="22" name="title">
-      <Position>2</Position>
-      <DataType>varchar(255)|0s</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>679</StateNumber>
-      <TypeId>1043</TypeId>
-    </column>
-    <column id="45" parent="22" name="titlesortierung">
+    <column id="41" parent="22" name="imdbvotes">
       <Position>3</Position>
-      <DataType>varchar(255)|0s</DataType>
-      <StateNumber>676</StateNumber>
-      <TypeId>1043</TypeId>
+      <DataType>bigint|0s</DataType>
+      <StateNumber>1190</StateNumber>
+      <TypeId>20</TypeId>
     </column>
-    <column id="46" parent="22" name="titlezusatz">
+    <column id="42" parent="22" name="imdbwertung">
       <Position>4</Position>
       <DataType>varchar(255)|0s</DataType>
-      <StateNumber>682</StateNumber>
+      <StateNumber>1190</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="47" parent="22" name="titleorginal">
+    <column id="43" parent="22" name="laufzeit">
       <Position>5</Position>
-      <DataType>varchar(255)|0s</DataType>
-      <StateNumber>683</StateNumber>
-      <TypeId>1043</TypeId>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1190</StateNumber>
+      <TypeId>23</TypeId>
     </column>
-    <column id="48" parent="22" name="laufzeit">
+    <column id="44" parent="22" name="premieredatum">
       <Position>6</Position>
-      <DataType>integer|0s</DataType>
-      <StateNumber>684</StateNumber>
-      <TypeId>23</TypeId>
+      <DataType>timestamp|0s</DataType>
+      <StateNumber>1190</StateNumber>
+      <TypeId>1114</TypeId>
     </column>
-    <column id="49" parent="22" name="premieredatum">
+    <column id="45" parent="22" name="title">
       <Position>7</Position>
-      <DataType>date|0s</DataType>
-      <StateNumber>685</StateNumber>
-      <TypeId>1082</TypeId>
-    </column>
-    <column id="50" parent="22" name="imdbid">
-      <Position>11</Position>
-      <DataType>bigint|0s</DataType>
-      <StateNumber>695</StateNumber>
-      <TypeId>20</TypeId>
-    </column>
-    <column id="51" parent="22" name="imdbvotes">
-      <Position>12</Position>
-      <DataType>bigint|0s</DataType>
-      <StateNumber>696</StateNumber>
-      <TypeId>20</TypeId>
-    </column>
-    <column id="52" parent="22" name="imdbwertung">
-      <Position>13</Position>
       <DataType>varchar(255)|0s</DataType>
-      <StateNumber>697</StateNumber>
+      <StateNumber>1190</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <index id="53" parent="22" name="media_id_uindex">
-      <ObjectId>27051</ObjectId>
-      <StateNumber>679</StateNumber>
-      <ColNames>id</ColNames>
-      <Unique>1</Unique>
-    </index>
-    <index id="54" parent="22" name="media_pk">
-      <ObjectId>27052</ObjectId>
-      <StateNumber>679</StateNumber>
+    <column id="46" parent="22" name="titleorginal">
+      <Position>8</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <StateNumber>1190</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="47" parent="22" name="titlesortierung">
+      <Position>9</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <StateNumber>1190</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="48" parent="22" name="titlezusatz">
+      <Position>10</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <StateNumber>1190</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="49" parent="22" name="media_pkey">
+      <ObjectId>68675</ObjectId>
+      <StateNumber>1190</StateNumber>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
     </index>
-    <key id="55" parent="22" name="media_pk">
-      <ObjectId>27053</ObjectId>
-      <StateNumber>609</StateNumber>
+    <key id="50" parent="22" name="media_pkey">
+      <ObjectId>68676</ObjectId>
+      <StateNumber>1190</StateNumber>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
-      <UnderlyingIndexName>media_pk</UnderlyingIndexName>
+      <UnderlyingIndexName>media_pkey</UnderlyingIndexName>
     </key>
-    <column id="56" parent="23" name="id">
+    <column id="51" parent="23" name="movie_id">
       <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1191</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="52" parent="23" name="genre_id">
+      <Position>2</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>627</StateNumber>
+      <StateNumber>1191</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="57" parent="23" name="Sprache">
-      <Position>2</Position>
-      <DataType>varchar(255)|0s</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>634</StateNumber>
-      <TypeId>1043</TypeId>
-    </column>
-    <index id="58" parent="23" name="sprache_id_uindex">
-      <ObjectId>27063</ObjectId>
-      <StateNumber>633</StateNumber>
-      <ColNames>id</ColNames>
-      <Unique>1</Unique>
-    </index>
-    <index id="59" parent="23" name="sprache_pk">
-      <ObjectId>27064</ObjectId>
-      <StateNumber>633</StateNumber>
-      <ColNames>id</ColNames>
-      <Unique>1</Unique>
-      <Primary>1</Primary>
-    </index>
-    <key id="60" parent="23" name="sprache_pk">
-      <ObjectId>27065</ObjectId>
-      <StateNumber>629</StateNumber>
-      <ColNames>id</ColNames>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>sprache_pk</UnderlyingIndexName>
-    </key>
-    <column id="61" parent="24" name="id">
-      <Position>1</Position>
-      <DataType>integer|0s</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>648</StateNumber>
-      <TypeId>23</TypeId>
-    </column>
-    <column id="62" parent="24" name="studio">
-      <Position>2</Position>
-      <DataType>varchar(255)|0s</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>648</StateNumber>
-      <TypeId>1043</TypeId>
-    </column>
-    <index id="63" parent="24" name="studio_id_uindex">
-      <ObjectId>27080</ObjectId>
-      <StateNumber>649</StateNumber>
-      <ColNames>id</ColNames>
-      <Unique>1</Unique>
-    </index>
-    <index id="64" parent="24" name="studio_pk">
-      <ObjectId>27081</ObjectId>
-      <StateNumber>650</StateNumber>
-      <ColNames>id</ColNames>
-      <Unique>1</Unique>
-      <Primary>1</Primary>
-    </index>
-    <key id="65" parent="24" name="studio_pk">
-      <ObjectId>27082</ObjectId>
-      <StateNumber>650</StateNumber>
-      <ColNames>id</ColNames>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>studio_pk</UnderlyingIndexName>
-    </key>
-    <column id="66" parent="25" name="id">
+    <foreign-key id="53" parent="23" name="fkk0olb0qdcbofa05lwylg81inw">
+      <ObjectId>68705</ObjectId>
+      <StateNumber>1198</StateNumber>
+      <ColNames>movie_id</ColNames>
+      <RefTableId>68669</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>media</RefTableName>
+      <RefKeyName>media_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="54" parent="23" name="fk8ynw38d2gvmjqk6ly0l60jldu">
+      <ObjectId>68700</ObjectId>
+      <StateNumber>1197</StateNumber>
+      <ColNames>genre_id</ColNames>
+      <RefTableId>68659</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>genre</RefTableName>
+      <RefKeyName>genre_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="55" parent="24" name="movie_id">
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>717</StateNumber>
+      <StateNumber>1192</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <column id="67" parent="25" name="username">
+    <column id="56" parent="24" name="studio_id">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1192</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <foreign-key id="57" parent="24" name="fkg4tfftwkv4u8yhlm2wf6ipnnm">
+      <ObjectId>68715</ObjectId>
+      <StateNumber>1200</StateNumber>
+      <ColNames>movie_id</ColNames>
+      <RefTableId>68669</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>media</RefTableName>
+      <RefKeyName>media_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="58" parent="24" name="fk7367hogxmfba12h3dttdyd6c1">
+      <ObjectId>68710</ObjectId>
+      <StateNumber>1199</StateNumber>
+      <ColNames>studio_id</ColNames>
+      <RefTableId>68683</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>studio</RefTableName>
+      <RefKeyName>studio_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="59" parent="25" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1193</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="60" parent="25" name="studioname">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
-      <StateNumber>718</StateNumber>
+      <StateNumber>1193</StateNumber>
       <TypeId>1043</TypeId>
     </column>
+    <index id="61" parent="25" name="studio_pkey">
+      <ObjectId>68686</ObjectId>
+      <StateNumber>1193</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="62" parent="25" name="studio_pkey">
+      <ObjectId>68687</ObjectId>
+      <StateNumber>1193</StateNumber>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>studio_pkey</UnderlyingIndexName>
+    </key>
+    <column id="63" parent="26" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1194</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="64" parent="26" name="username">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <StateNumber>1194</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="65" parent="26" name="user_pkey">
+      <ObjectId>68691</ObjectId>
+      <StateNumber>1194</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="66" parent="26" name="user_pkey">
+      <ObjectId>68692</ObjectId>
+      <StateNumber>1194</StateNumber>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>user_pkey</UnderlyingIndexName>
+    </key>
   </database-model>
 </dataSource>

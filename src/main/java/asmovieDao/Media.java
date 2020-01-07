@@ -1,11 +1,7 @@
 package asmovieDao;
 import javax.persistence.*;
 import java.io.Serializable;
-import java.util.Date;
-
-
-
-import java.util.List;
+import java.util.*;
 
 @Entity
 @Table(schema = "moviedb", name="media")
@@ -14,14 +10,14 @@ public class Media implements Serializable {
 
     private static final long serialVersionUID = 4871843445258010709L;
 
-    public Media(){
 
-    }
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "ID")
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
 
+    @Column(name = "title")
     private String title;
 
     private String titleSortierung;
@@ -40,15 +36,39 @@ public class Media implements Serializable {
 
     private String imdbWertung;
 
-@OneToMany(
-        mappedBy = "genres",
-        cascade = CascadeType.ALL)
-private List<Genre> genres;
 
 
+    @ManyToMany( cascade = CascadeType.ALL )
+    @JoinTable(
+            schema = "moviedb",
+            name = "movieAndGenres",
+            joinColumns = {@JoinColumn(name = "movie_id", referencedColumnName = "id")},
+            inverseJoinColumns = {@JoinColumn(name = "genre_id", referencedColumnName = "id")}
+
+    )
+    private List<Genre> genres = new ArrayList<Genre>();
+
+    @ManyToMany(cascade = CascadeType.ALL)
+    @JoinTable(
+            schema = "moviedb",
+            name= "movieandstudio",
+            joinColumns = {@JoinColumn(name = "movie_id", referencedColumnName = "id")},
+            inverseJoinColumns = {@JoinColumn(name = "studio_id",referencedColumnName = "id")}
+    )
+    private List<Studio> studios = new ArrayList<Studio>();
 
 
+    public Media(){
 
+    }
+
+    public List<Genre> getGenres() {
+        return genres;
+    }
+
+    public void setGenres(List<Genre> genres) {
+        this.genres = genres;
+    }
 
     public Date getPremiereDatum() {
         return premiereDatum;
