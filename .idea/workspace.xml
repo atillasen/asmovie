@@ -259,6 +259,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="module&#10;directory&#10;repository" />
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
@@ -788,10 +789,14 @@
     </state>
     <state x="632" y="255" key="SettingsEditor/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1577889311937" />
     <state x="632" y="255" width="1296" height="1050" key="SettingsEditor/2560.0.2560.1560/0.0.2560.1560@0.0.2560.1560" timestamp="1577455885954" />
-    <state x="772" y="452" key="Vcs.Push.Dialog.v2" timestamp="1578349761207">
+    <state x="92" y="92" width="2376" height="1376" key="ShowDiffWithBranchDialog" timestamp="1578435660415">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
-    <state x="772" y="452" key="Vcs.Push.Dialog.v2/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578349761207" />
+    <state x="92" y="92" width="2376" height="1376" key="ShowDiffWithBranchDialog/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578435660415" />
+    <state x="772" y="452" key="Vcs.Push.Dialog.v2" timestamp="1578435582978">
+      <screen x="0" y="0" width="2560" height="1560" />
+    </state>
+    <state x="772" y="452" key="Vcs.Push.Dialog.v2/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578435582978" />
     <state x="1085" y="656" width="389" height="264" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1578232979368">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
@@ -810,6 +815,10 @@
     </state>
     <state x="1094" y="459" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1577725871862" />
     <state x="930" y="350" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/2560.0.2560.1560/0.0.2560.1560@0.0.2560.1560" timestamp="1577455842385" />
+    <state x="92" y="92" width="2376" height="1376" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1578435660415">
+      <screen x="0" y="0" width="2560" height="1560" />
+    </state>
+    <state x="92" y="92" width="2376" height="1376" key="com.intellij.dvcs.ui.CompareBranchesDialog/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578435660415" />
     <state x="926" y="567" key="com.intellij.ide.util.TipDialog" timestamp="1578435427764">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
