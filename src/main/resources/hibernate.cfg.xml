@@ -23,6 +23,10 @@
     <mapping class="asmovieDao.Person"/>
     <mapping class="asmovieDao.Darsteller"/>
     <mapping class="asmovieDao.Fsk"/>
+    <mapping class="asmovieDao.Funktion"/>
+    <mapping class="asmovieDao.Mitwirkende"/>
+    <mapping class="asmovieDao.Medium"/>
+
 
 
 

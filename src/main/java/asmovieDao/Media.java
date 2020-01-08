@@ -15,7 +15,7 @@ public class Media implements Serializable {
     @Id
     @Column(name = "ID")
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+    private int id;
 
     @Column(name = "title")
     private String title;
@@ -66,9 +66,31 @@ public class Media implements Serializable {
     )
     private List<Darsteller> darstellerList = new ArrayList<Darsteller>();
 
+    @ManyToOne
+    private Sprache sprache;
+
+    @ManyToOne
+    private Land land;
 
     public Media(){
 
+    }
+
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public List<Studio> getStudios() {
+        return studios;
+    }
+
+    public void setStudios(List<Studio> studios) {
+        this.studios = studios;
     }
 
     public List<Genre> getGenres() {
@@ -135,9 +157,7 @@ public class Media implements Serializable {
         this.titleZusatz = titleZusatz;
     }
 
-    public void setId(Long id) {
-        this.id = id;
-    }
+
 
     public String getTitleSortierung() {
         return titleSortierung;
@@ -155,13 +175,6 @@ public class Media implements Serializable {
         this.title = title;
     }
 
-    public long getId() {
-        return id;
-    }
-
-    public void setId(long id) {
-        this.id = id;
-    }
 
     public List<Darsteller> getDarstellerList() {
         return darstellerList;

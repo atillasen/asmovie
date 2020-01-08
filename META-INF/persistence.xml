@@ -19,6 +19,10 @@
         <class>asmovieDao.Person</class>
         <class>asmovieDao.Darsteller</class>
         <class>asmovieDao.Fsk</class>
+        <class>asmovieDao.Mitwirkende</class>
+        <class>asmovieDao.Funktion</class>
+        <class>asmovieDao.Medium</class>
+
 
 
         <properties>
