@@ -14,7 +14,7 @@ public class Media implements Serializable {
 
     @Id
     @Column(name = "ID")
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
     @Column(name = "title")
@@ -56,6 +56,15 @@ public class Media implements Serializable {
             inverseJoinColumns = {@JoinColumn(name = "studio_id",referencedColumnName = "id")}
     )
     private List<Studio> studios = new ArrayList<Studio>();
+
+    @ManyToMany(cascade = CascadeType.ALL)
+    @JoinTable(
+            name="darsteller",
+            schema = "moviedb",
+            joinColumns = {@JoinColumn(name = "medias_id",referencedColumnName = "id")},
+           inverseJoinColumns = {@JoinColumn(name = "darsteller_id", referencedColumnName = "id")}
+    )
+    private List<Darsteller> darstellerList = new ArrayList<Darsteller>();
 
 
     public Media(){
@@ -152,5 +161,13 @@ public class Media implements Serializable {
 
     public void setId(long id) {
         this.id = id;
+    }
+
+    public List<Darsteller> getDarstellerList() {
+        return darstellerList;
+    }
+
+    public void setDarstellerList(List<Darsteller> darstellerList) {
+        this.darstellerList = darstellerList;
     }
 }

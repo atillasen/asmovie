@@ -21,6 +21,10 @@
     <mapping class="asmovieDao.Land"/>
     <mapping class="asmovieDao.Sprache"/>
     <mapping class="asmovieDao.Person"/>
+    <mapping class="asmovieDao.Darsteller"/>
+    <mapping class="asmovieDao.Fsk"/>
+
+
 
 
 

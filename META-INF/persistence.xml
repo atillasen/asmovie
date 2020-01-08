@@ -17,6 +17,8 @@
         <class>asmovieDao.Land</class>
         <class>asmovieDao.Sprache</class>
         <class>asmovieDao.Person</class>
+        <class>asmovieDao.Darsteller</class>
+        <class>asmovieDao.Fsk</class>
 
 
         <properties>

@@ -7,39 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d184874-8bea-4954-bc27-22aa93b4c137" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/asmovieDao/Darsteller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/asmovieDao/Fsk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/asmovieDao/Land.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/asmovieDao/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/asmovieDao/Sprache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/asmovieDao/Studio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/asmovieDao/repositorys/MediaRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/f464f56d-5cc1-4105-8648-61bf58bbd13e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f464f56d-5cc1-4105-8648-61bf58bbd13e.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/f464f56d-5cc1-4105-8648-61bf58bbd13e/storage_v2/_src_/database/postgres.edMnLQ/schema/moviedb.rj8hSg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f464f56d-5cc1-4105-8648-61bf58bbd13e/storage_v2/_src_/database/postgres.edMnLQ/schema/moviedb.rj8hSg.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asmovie.iml" beforeDir="false" afterPath="$PROJECT_DIR$/asmovie.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/asmovieDao/Darsteller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/asmovieDao/Darsteller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/asmovieDao/Genre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/asmovieDao/Genre.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/asmovieDao/Media.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/asmovieDao/Media.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/asmovie.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/asmovie.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/asmovie/WEB-INF/classes/asmovieController/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/asmovie/WEB-INF/classes/asmovieController/CustomerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/asmovie/WEB-INF/classes/asmovieController/MediaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/asmovie/WEB-INF/classes/asmovieController/MediaController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/asmovie/WEB-INF/classes/asmovieModel/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/asmovie/WEB-INF/classes/asmovieModel/Genre.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/asmovie/WEB-INF/classes/asmovieModel/Media.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/asmovie/WEB-INF/classes/asmovieModel/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/asmovie/WEB-INF/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/asmovie/WEB-INF/classes/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/asmovieController/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/asmovieController/CustomerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/asmovieController/MediaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/asmovieController/MediaController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/asmovieModel/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/asmovieModel/Genre.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/asmovieModel/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,15 +65,6 @@
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="hibernate.cfg.xml/Hibernate" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
@@ -135,36 +101,6 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="moviedb: schema" type="983ebcf7:PgImplModel$Schema" />
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="moviedb: schema" type="983ebcf7:PgImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="customer: table" type="69fad909:PgImplModel$LocalTable" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="moviedb: schema" type="983ebcf7:PgImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="genre: table" type="69fad909:PgImplModel$LocalTable" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="moviedb: schema" type="983ebcf7:PgImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="land: table" type="69fad909:PgImplModel$LocalTable" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
@@ -181,20 +117,14 @@
         <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="postgres: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="moviedb: schema" type="983ebcf7:PgImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="movieandgenres: table" type="69fad909:PgImplModel$LocalTable" />
+        <item name="access methods" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="postgres: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="moviedb: schema" type="983ebcf7:PgImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="movieandstudio: table" type="69fad909:PgImplModel$LocalTable" />
+        <item name="extensions" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
@@ -620,6 +550,10 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:postgres@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
             </expand>
             <select />
           </treeState>
@@ -656,6 +590,8 @@
       <workItem from="1578163558260" duration="3051000" />
       <workItem from="1578231145718" duration="13298000" />
       <workItem from="1578332698898" duration="4933000" />
+      <workItem from="1578435427287" duration="369000" />
+      <workItem from="1578496828628" duration="5347000" />
     </task>
     <servers />
   </component>
@@ -663,14 +599,15 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="772" y="359" key="#Assign_Data_Sources" timestamp="1578239994571">
+    <state x="772" y="359" key="#Assign_Data_Sources" timestamp="1578513367498">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
-    <state x="772" y="359" key="#Assign_Data_Sources/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578239994571" />
+    <state x="772" y="359" key="#Assign_Data_Sources/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578513367498" />
     <state x="772" y="359" key="#Assign_Data_Sources/2560.0.2560.1560/0.0.2560.1560@0.0.2560.1560" timestamp="1577326360743" />
-    <state x="772" y="359" key="#Inspections" timestamp="1577234294808">
+    <state x="772" y="359" key="#Inspections" timestamp="1578508281825">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
+    <state x="772" y="359" key="#Inspections/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578508281825" />
     <state x="772" y="359" key="#Inspections/2560.0.2560.1560/0.0.2560.1560@0.0.2560.1560" timestamp="1577234294808" />
     <state x="772" y="359" width="1016" height="901" key="#Intentions" timestamp="1577447019957">
       <screen x="0" y="0" width="2560" height="1560" />
@@ -724,25 +661,25 @@
     </state>
     <state x="1009" y="464" key="FileChooserDialogImpl/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578164550442" />
     <state x="1009" y="464" key="FileChooserDialogImpl/2560.0.2560.1560/0.0.2560.1560@0.0.2560.1560" timestamp="1577326166282" />
-    <state width="2505" height="415" key="GridCell.Tab.0.bottom" timestamp="1578268936906">
+    <state width="2505" height="415" key="GridCell.Tab.0.bottom" timestamp="1578514350645">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
-    <state width="2505" height="415" key="GridCell.Tab.0.bottom/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578268936906" />
+    <state width="2505" height="415" key="GridCell.Tab.0.bottom/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578514350645" />
     <state width="2505" height="415" key="GridCell.Tab.0.bottom/2560.0.2560.1560/0.0.2560.1560@0.0.2560.1560" timestamp="1577448843535" />
-    <state width="2505" height="415" key="GridCell.Tab.0.center" timestamp="1578268936906">
+    <state width="2505" height="415" key="GridCell.Tab.0.center" timestamp="1578514350645">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
-    <state width="2505" height="415" key="GridCell.Tab.0.center/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578268936906" />
+    <state width="2505" height="415" key="GridCell.Tab.0.center/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578514350645" />
     <state width="2505" height="415" key="GridCell.Tab.0.center/2560.0.2560.1560/0.0.2560.1560@0.0.2560.1560" timestamp="1577448843535" />
-    <state width="2505" height="415" key="GridCell.Tab.0.left" timestamp="1578268936906">
+    <state width="2505" height="415" key="GridCell.Tab.0.left" timestamp="1578514350645">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
-    <state width="2505" height="415" key="GridCell.Tab.0.left/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578268936906" />
+    <state width="2505" height="415" key="GridCell.Tab.0.left/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578514350645" />
     <state width="2505" height="415" key="GridCell.Tab.0.left/2560.0.2560.1560/0.0.2560.1560@0.0.2560.1560" timestamp="1577448843535" />
-    <state width="2505" height="415" key="GridCell.Tab.0.right" timestamp="1578268936906">
+    <state width="2505" height="415" key="GridCell.Tab.0.right" timestamp="1578514350645">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
-    <state width="2505" height="415" key="GridCell.Tab.0.right/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578268936906" />
+    <state width="2505" height="415" key="GridCell.Tab.0.right/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578514350645" />
     <state width="2505" height="415" key="GridCell.Tab.0.right/2560.0.2560.1560/0.0.2560.1560@0.0.2560.1560" timestamp="1577448843535" />
     <state width="1727" height="430" key="GridCell.Tab.1.bottom" timestamp="1578183189743">
       <screen x="0" y="0" width="2560" height="1560" />
@@ -797,10 +734,14 @@
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
     <state x="772" y="452" key="Vcs.Push.Dialog.v2/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578435582978" />
-    <state x="1085" y="656" width="389" height="264" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1578232979368">
+    <state x="1085" y="656" width="389" height="264" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1578513863502">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
-    <state x="1085" y="656" width="389" height="264" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578232979368" />
+    <state x="1085" y="656" width="389" height="264" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578513863502" />
+    <state x="1108" y="656" key="com.intellij.database.actions.ToolActions$ScriptingActionBase$MyDatabaseScriptDialog" timestamp="1578513830919">
+      <screen x="0" y="0" width="2560" height="1560" />
+    </state>
+    <state x="1108" y="656" key="com.intellij.database.actions.ToolActions$ScriptingActionBase$MyDatabaseScriptDialog/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578513830919" />
     <state x="760" y="357" key="com.intellij.database.dbimport.ImportDialog" timestamp="1577455805654">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
@@ -810,20 +751,20 @@
     </state>
     <state x="1051" y="579" width="458" height="406" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578079564140" />
     <state x="1051" y="579" width="458" height="414" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/2560.0.2560.1560/0.0.2560.1560@0.0.2560.1560" timestamp="1577454501602" />
-    <state x="1094" y="459" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1577725871862">
+    <state x="1094" y="459" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1578513686462">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
-    <state x="1094" y="459" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1577725871862" />
+    <state x="1094" y="459" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578513686462" />
     <state x="930" y="350" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/2560.0.2560.1560/0.0.2560.1560@0.0.2560.1560" timestamp="1577455842385" />
     <state x="92" y="92" width="2376" height="1376" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1578435660415">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
     <state x="92" y="92" width="2376" height="1376" key="com.intellij.dvcs.ui.CompareBranchesDialog/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578435660415" />
-    <state x="926" y="567" key="com.intellij.ide.util.TipDialog" timestamp="1578435427764">
+    <state x="926" y="567" key="com.intellij.ide.util.TipDialog" timestamp="1578496847285">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
     <state x="-766" y="683" key="com.intellij.ide.util.TipDialog/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@-1200.0.1200.1880" timestamp="1578163558996" />
-    <state x="926" y="567" key="com.intellij.ide.util.TipDialog/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578435427764" />
+    <state x="926" y="567" key="com.intellij.ide.util.TipDialog/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578496847285" />
     <state x="926" y="567" key="com.intellij.ide.util.TipDialog/2560.0.2560.1560/0.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1577537177103" />
     <state x="926" y="567" key="com.intellij.ide.util.TipDialog/2560.0.2560.1560/0.0.2560.1560@0.0.2560.1560" timestamp="1577445698414" />
     <state x="933" y="665" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1577327235663">

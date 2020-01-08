@@ -20,6 +20,7 @@ public class Genre implements Serializable {
 
     @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.PERSIST)
     @JoinTable(
+            schema = "moviedb",
             name = "movieandgenres",
             joinColumns = {@JoinColumn(name = "genre_ID", referencedColumnName = "id")},
             inverseJoinColumns = {@JoinColumn(name = "media_ID", referencedColumnName = "id")}

@@ -13,17 +13,18 @@ public class Darsteller  implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+    private int id;
 
 
     private String charakter;
 
     @ManyToOne
-    @JoinColumn(name = "person_id", referencedColumnName = "id")
+    @JoinColumn(name = "person_ID", referencedColumnName = "id")
     private Person person;
 
-    @ManyToMany
-    private List<Media> medias = new ArrayList<Media>();
+    @ManyToOne
+    @JoinColumn(name = "media_ID",referencedColumnName = "id")
+    private Media media ;
 
 
 
