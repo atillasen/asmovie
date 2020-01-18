@@ -2,6 +2,7 @@ package asmovieDao;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import javax.persistence.Entity;
 
 @Entity
 @Table(schema = "moviedb", name = "user")

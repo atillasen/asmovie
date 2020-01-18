@@ -30,4 +30,36 @@ public class Darsteller  implements Serializable {
 
     public Darsteller() {
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getCharakter() {
+        return charakter;
+    }
+
+    public void setCharakter(String charakter) {
+        this.charakter = charakter;
+    }
+
+    public Person getPerson() {
+        return person;
+    }
+
+    public void setPerson(Person person) {
+        this.person = person;
+    }
+
+    public Media getMedia() {
+        return media;
+    }
+
+    public void setMedia(Media media) {
+        this.media = media;
+    }
 }

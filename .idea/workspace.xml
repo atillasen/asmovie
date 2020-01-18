@@ -7,38 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d184874-8bea-4954-bc27-22aa93b4c137" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/asmovieDao/UserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/f464f56d-5cc1-4105-8648-61bf58bbd13e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f464f56d-5cc1-4105-8648-61bf58bbd13e.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/f464f56d-5cc1-4105-8648-61bf58bbd13e/storage_v2/_src_/database/postgres.edMnLQ/schema/moviedb.rj8hSg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f464f56d-5cc1-4105-8648-61bf58bbd13e/storage_v2/_src_/database/postgres.edMnLQ/schema/moviedb.rj8hSg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asmovie.iml" beforeDir="false" afterPath="$PROJECT_DIR$/asmovie.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/asmovieController/MediaController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/asmovieDao/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/asmovieDao/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/asmovieDao/Darsteller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/asmovieDao/Darsteller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/asmovieDao/Media.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/asmovieDao/Media.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/asmovieDao/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/asmovieDao/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/asmovie.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/asmovie.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/asmovie/WEB-INF/classes/META-INF/asmovie.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/asmovie/WEB-INF/classes/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/asmovie/WEB-INF/classes/asmovieController/MediaController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/asmovie/WEB-INF/classes/asmovieDao/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/asmovie/WEB-INF/classes/asmovieDao/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/asmovie/WEB-INF/classes/asmovieDao/Genre.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/asmovie/WEB-INF/classes/asmovieDao/Genre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/asmovie/WEB-INF/classes/asmovieDao/Media.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/asmovie/WEB-INF/classes/asmovieDao/Media.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/asmovie/WEB-INF/classes/asmovieDao/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/asmovie/WEB-INF/classes/asmovieDao/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/asmovie/WEB-INF/classes/hibernate.cfg.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/asmovieController/MediaController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/asmovieDao/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/asmovieDao/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/asmovieDao/Darsteller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/asmovieDao/Darsteller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/asmovieDao/Media.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/asmovieDao/Media.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/asmovieDao/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/asmovieDao/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +165,14 @@
       <recent name="C:\dev\projekte\asmovie" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserTest.createUser">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="asmovie" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="asmovieController.Main2" />
       <module name="asmovie" />
@@ -539,19 +525,20 @@
     <list>
       <item itemvalue="Application.main2" />
       <item itemvalue="Application.Main2" />
+      <item itemvalue="Application.Main" />
       <item itemvalue="GlassFish Server.GlassFish 5.0.0" />
       <item itemvalue="JBoss Server.JBoss 18.0.1.Final" />
       <item itemvalue="JUnit.UserTest" />
-      <item itemvalue="Tomcat Server.Tomcat 8.5" />
       <item itemvalue="JUnit.UserTest.createUser" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.UserTest.createUser" />
         <item itemvalue="JUnit.UserTest" />
         <item itemvalue="Application.Main2" />
         <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.main2" />
       </list>
     </recent_temporary>
   </component>
@@ -567,16 +554,20 @@
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="GlassFish Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="JBoss Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:postgres@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:postgres@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@24d3b982" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -618,8 +609,18 @@
       <workItem from="1578496828628" duration="7143000" />
       <workItem from="1578657749372" duration="653000" />
       <workItem from="1578770951753" duration="8203000" />
-      <workItem from="1578849291179" duration="4093000" />
+      <workItem from="1578849291179" duration="5859000" />
+      <workItem from="1579259310480" duration="10238000" />
+      <workItem from="1579345883683" duration="627000" />
     </task>
+    <task id="LOCAL-00001" summary="3">
+      <created>1578861143727</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578861143727</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -629,6 +630,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/asmovie" />
     </ignored-roots>
+    <MESSAGE value="3" />
+    <option name="LAST_COMMIT_MESSAGE" value="3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="772" y="359" key="#Assign_Data_Sources" timestamp="1578513367498">
@@ -667,10 +670,10 @@
     </state>
     <state x="734" y="432" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578183067680" />
     <state x="734" y="432" width="1092" height="777" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.0.2560.1560/0.0.2560.1560@0.0.2560.1560" timestamp="1577364724010" />
-    <state x="1041" y="400" key="#com.intellij.ide.util.MemberChooser" timestamp="1578783770610">
+    <state x="1041" y="400" key="#com.intellij.ide.util.MemberChooser" timestamp="1579279473055">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
-    <state x="1041" y="400" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578783770610" />
+    <state x="1041" y="400" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1579279473055" />
     <state x="1041" y="400" key="#com.intellij.ide.util.MemberChooser/2560.0.2560.1560/0.0.2560.1560@0.0.2560.1560" timestamp="1577400661513" />
     <state x="943" y="494" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1577447122448">
       <screen x="0" y="0" width="2560" height="1560" />
@@ -694,50 +697,54 @@
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
     <state x="950" y="229" key="#com.intellij.jpa.generation.ui.DatabaseSchemaImportDialog/2560.0.2560.1560/0.0.2560.1560@0.0.2560.1560" timestamp="1577233307520" />
+    <state x="677" y="310" key="CommitChangelistDialog2" timestamp="1578861142539">
+      <screen x="0" y="0" width="2560" height="1560" />
+    </state>
+    <state x="677" y="310" key="CommitChangelistDialog2/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578861142539" />
     <state x="1009" y="464" key="FileChooserDialogImpl" timestamp="1578164550442">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
     <state x="1009" y="464" key="FileChooserDialogImpl/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578164550442" />
     <state x="1009" y="464" key="FileChooserDialogImpl/2560.0.2560.1560/0.0.2560.1560@0.0.2560.1560" timestamp="1577326166282" />
-    <state width="2505" height="529" key="GridCell.Tab.0.bottom" timestamp="1578861078619">
+    <state width="2505" height="415" key="GridCell.Tab.0.bottom" timestamp="1579310497810">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
-    <state width="2505" height="529" key="GridCell.Tab.0.bottom/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578861078619" />
+    <state width="2505" height="415" key="GridCell.Tab.0.bottom/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1579310497810" />
     <state width="2505" height="415" key="GridCell.Tab.0.bottom/2560.0.2560.1560/0.0.2560.1560@0.0.2560.1560" timestamp="1577448843535" />
-    <state width="2505" height="529" key="GridCell.Tab.0.center" timestamp="1578861078619">
+    <state width="2505" height="415" key="GridCell.Tab.0.center" timestamp="1579310497810">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
-    <state width="2505" height="529" key="GridCell.Tab.0.center/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578861078619" />
+    <state width="2505" height="415" key="GridCell.Tab.0.center/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1579310497810" />
     <state width="2505" height="415" key="GridCell.Tab.0.center/2560.0.2560.1560/0.0.2560.1560@0.0.2560.1560" timestamp="1577448843535" />
-    <state width="2505" height="529" key="GridCell.Tab.0.left" timestamp="1578861078619">
+    <state width="2505" height="415" key="GridCell.Tab.0.left" timestamp="1579310497810">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
-    <state width="2505" height="529" key="GridCell.Tab.0.left/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578861078619" />
+    <state width="2505" height="415" key="GridCell.Tab.0.left/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1579310497810" />
     <state width="2505" height="415" key="GridCell.Tab.0.left/2560.0.2560.1560/0.0.2560.1560@0.0.2560.1560" timestamp="1577448843535" />
-    <state width="2505" height="529" key="GridCell.Tab.0.right" timestamp="1578861078619">
+    <state width="2505" height="415" key="GridCell.Tab.0.right" timestamp="1579310497810">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
-    <state width="2505" height="529" key="GridCell.Tab.0.right/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578861078619" />
+    <state width="2505" height="415" key="GridCell.Tab.0.right/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1579310497810" />
     <state width="2505" height="415" key="GridCell.Tab.0.right/2560.0.2560.1560/0.0.2560.1560@0.0.2560.1560" timestamp="1577448843535" />
-    <state width="2505" height="529" key="GridCell.Tab.1.bottom" timestamp="1578861078992">
+    <state width="2505" height="529" key="GridCell.Tab.1.bottom" timestamp="1578863734906">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
-    <state width="2505" height="529" key="GridCell.Tab.1.bottom/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578861078992" />
+    <state width="2505" height="529" key="GridCell.Tab.1.bottom/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578863734906" />
     <state width="1727" height="430" key="GridCell.Tab.1.bottom/2560.0.2560.1560/0.0.2560.1560@0.0.2560.1560" timestamp="1577407392217" />
-    <state width="2505" height="529" key="GridCell.Tab.1.center" timestamp="1578861078992">
+    <state width="2505" height="529" key="GridCell.Tab.1.center" timestamp="1578863734906">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
-    <state width="2505" height="529" key="GridCell.Tab.1.center/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578861078992" />
+    <state width="2505" height="529" key="GridCell.Tab.1.center/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578863734906" />
     <state width="1727" height="430" key="GridCell.Tab.1.center/2560.0.2560.1560/0.0.2560.1560@0.0.2560.1560" timestamp="1577407392217" />
-    <state width="2505" height="529" key="GridCell.Tab.1.left" timestamp="1578861078992">
+    <state width="2505" height="529" key="GridCell.Tab.1.left" timestamp="1578863734906">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
-    <state width="2505" height="529" key="GridCell.Tab.1.left/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578861078992" />
+    <state width="2505" height="529" key="GridCell.Tab.1.left/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578863734906" />
     <state width="1727" height="430" key="GridCell.Tab.1.left/2560.0.2560.1560/0.0.2560.1560@0.0.2560.1560" timestamp="1577407392217" />
-    <state width="2505" height="529" key="GridCell.Tab.1.right" timestamp="1578861078992">
+    <state width="2505" height="529" key="GridCell.Tab.1.right" timestamp="1578863734906">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
-    <state width="2505" height="529" key="GridCell.Tab.1.right/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578861078992" />
+    <state width="2505" height="529" key="GridCell.Tab.1.right/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578863734906" />
     <state width="1727" height="430" key="GridCell.Tab.1.right/2560.0.2560.1560/0.0.2560.1560@0.0.2560.1560" timestamp="1577407392217" />
     <state width="1727" height="430" key="GridCell.Tab.2.bottom" timestamp="1578183187394">
       <screen x="0" y="0" width="2560" height="1560" />
@@ -772,10 +779,10 @@
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
     <state x="772" y="452" key="Vcs.Push.Dialog.v2/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578523865716" />
-    <state x="1085" y="656" width="389" height="264" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1578860694750">
+    <state x="1085" y="656" width="389" height="264" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1579309510781">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
-    <state x="1085" y="656" width="389" height="264" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578860694750" />
+    <state x="1085" y="656" width="389" height="264" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1579309510781" />
     <state x="1108" y="656" key="com.intellij.database.actions.ToolActions$ScriptingActionBase$MyDatabaseScriptDialog" timestamp="1578513830919">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
@@ -789,20 +796,20 @@
     </state>
     <state x="1051" y="579" width="458" height="406" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578079564140" />
     <state x="1051" y="579" width="458" height="414" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/2560.0.2560.1560/0.0.2560.1560@0.0.2560.1560" timestamp="1577454501602" />
-    <state x="1094" y="459" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1578513686462">
+    <state x="1094" y="459" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1579282273921">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
-    <state x="1094" y="459" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578513686462" />
+    <state x="1094" y="459" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1579282273921" />
     <state x="930" y="350" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/2560.0.2560.1560/0.0.2560.1560@0.0.2560.1560" timestamp="1577455842385" />
     <state x="92" y="92" width="2376" height="1376" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1578435660415">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
     <state x="92" y="92" width="2376" height="1376" key="com.intellij.dvcs.ui.CompareBranchesDialog/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578435660415" />
-    <state x="926" y="567" key="com.intellij.ide.util.TipDialog" timestamp="1578849291812">
+    <state x="926" y="567" key="com.intellij.ide.util.TipDialog" timestamp="1579345885498">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
     <state x="-766" y="683" key="com.intellij.ide.util.TipDialog/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@-1200.0.1200.1880" timestamp="1578163558996" />
-    <state x="926" y="567" key="com.intellij.ide.util.TipDialog/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578849291812" />
+    <state x="926" y="567" key="com.intellij.ide.util.TipDialog/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1579345885498" />
     <state x="926" y="567" key="com.intellij.ide.util.TipDialog/2560.0.2560.1560/0.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1577537177103" />
     <state x="926" y="567" key="com.intellij.ide.util.TipDialog/2560.0.2560.1560/0.0.2560.1560@0.0.2560.1560" timestamp="1577445698414" />
     <state x="933" y="665" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1577327235663">

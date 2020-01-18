@@ -59,23 +59,65 @@ public class Media implements Serializable {
 
     @ManyToMany(cascade = CascadeType.ALL)
     @JoinTable(
-            name="darsteller",
+            name="moviedarsteller",
             schema = "moviedb",
-            joinColumns = {@JoinColumn(name = "medias_id",referencedColumnName = "id")},
+            joinColumns = {@JoinColumn(name = "media_id",referencedColumnName = "id")},
            inverseJoinColumns = {@JoinColumn(name = "darsteller_id", referencedColumnName = "id")}
     )
     private List<Darsteller> darstellerList = new ArrayList<Darsteller>();
 
-    @ManyToOne
+    @ManyToMany(cascade = CascadeType.ALL)
+    @JoinTable(
+            name="moviemitwirkende",
+            schema = "moviedb",
+            joinColumns = {@JoinColumn(name = "medias_id", referencedColumnName = "id")},
+            inverseJoinColumns = {@JoinColumn(name = "mitwirkende_id", referencedColumnName = "id")}
+
+    )
+    private List<Mitwirkende> mitwirkendeList = new ArrayList<Mitwirkende>();
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "sprache_id")
     private Sprache sprache;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "land_id")
     private Land land;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name ="fsk_id")
+    private Fsk fsk;
+
+
+
 
     public Media(){
 
     }
 
+    public Sprache getSprache() {
+        return sprache;
+    }
+
+    public void setSprache(Sprache sprache) {
+        this.sprache = sprache;
+    }
+
+    public Land getLand() {
+        return land;
+    }
+
+    public void setLand(Land land) {
+        this.land = land;
+    }
+
+    public Fsk getFsk() {
+        return fsk;
+    }
+
+    public void setFsk(Fsk fsk) {
+        this.fsk = fsk;
+    }
 
     public int getId() {
         return id;
