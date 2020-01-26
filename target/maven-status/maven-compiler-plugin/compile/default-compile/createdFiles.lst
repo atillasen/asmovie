@@ -3,12 +3,15 @@ asmovieDao\Studio.class
 asmovieDao\Fsk.class
 asmovieDao\Sprache.class
 asmovieController\DateConverter.class
+asmovieController\MediaController.class
 asmovieDao\Genre.class
 asmovieController\CustomerController.class
+Main.class
 asmovieDao\Mitwirkende.class
 asmovieDao\Person.class
 asmovieDao\Media.class
 asmovieDao\User.class
+asmovieController\RegisterController.class
 asmovieDao\Customer.class
 asmovieDao\Medium.class
 asmovieDao\Funktion.class

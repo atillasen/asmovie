@@ -7,17 +7,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d184874-8bea-4954-bc27-22aa93b4c137" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/asmovieController/MediaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/asmovieController/RegisterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/register/confirm.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/register/register.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/register/reject.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/f464f56d-5cc1-4105-8648-61bf58bbd13e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f464f56d-5cc1-4105-8648-61bf58bbd13e.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/f464f56d-5cc1-4105-8648-61bf58bbd13e/storage_v2/_src_/database/postgres.edMnLQ/schema/moviedb.rj8hSg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f464f56d-5cc1-4105-8648-61bf58bbd13e/storage_v2/_src_/database/postgres.edMnLQ/schema/moviedb.rj8hSg.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/asmovieDao/Darsteller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/asmovieDao/Darsteller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/asmovieDao/Media.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/asmovieDao/Media.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/asmovieDao/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/asmovieDao/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/asmovieDao/Darsteller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/asmovieDao/Darsteller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/asmovieDao/Media.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/asmovieDao/Media.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/asmovieDao/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/asmovieDao/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/asmovieDao/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/asmovieDao/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/asmovieDao/UserTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/asmovie.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/asmovie.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/asmovie/WEB-INF/classes/asmovieDao/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/asmovie/WEB-INF/classes/asmovieDao/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/asmovie/WEB-INF/classes/asmovieDao/Media.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/asmovie/WEB-INF/classes/asmovieDao/Media.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/asmovie/WEB-INF/classes/asmovieDao/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/asmovie/WEB-INF/classes/asmovieDao/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/asmovie/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/asmovie/index.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/asmovieDao/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/asmovieDao/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +48,36 @@
       <set />
     </option>
     <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="asmovie-jpa/Hibernate" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="asmovie-jpa/Hibernate" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="asmovie-jpa/Hibernate" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="asmovie-jpa/Hibernate" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="asmovie-jpa/Hibernate" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+      </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
@@ -77,7 +119,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="jsf" />
         <option value="facelets" />
         <option value="hibernate-configuration-5.2" />
         <option value="hibernate-main-5.2" />
@@ -86,6 +127,7 @@
         <option value="cdi.beans_1_0" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="jsf" />
       </list>
     </option>
   </component>
@@ -143,7 +185,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../server/wildfly-18.0.1.Final/modules/org/postgres/main/postgresql-42.2.9.jar" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.34130636" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -153,19 +195,21 @@
       <recent name="asmovieDao" />
       <recent name="asmovieModel" />
     </key>
-    <key name="ImportMappingsDialog.RecentPackages">
-      <recent name="" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\dev\projekte\asmovie\src\main\webapp\register" />
+      <recent name="C:\dev\projekte\asmovie\src\main\webapp" />
       <recent name="C:\dev\projekte\asmovie\src\main\resources" />
       <recent name="C:\dev\projekte\asmovie\src" />
       <recent name="C:\dev\projekte\asmovie" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="GlassFish Server.GlassFish 5.0.0">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="asmovie" />
@@ -450,7 +494,6 @@
       </method>
     </configuration>
     <configuration name="Tomcat 8.5" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.50" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/asmovie_war/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="asmovie:war">
@@ -554,20 +597,16 @@
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="GlassFish Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="JBoss Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:postgres@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:postgres@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@24d3b982" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -611,7 +650,15 @@
       <workItem from="1578770951753" duration="8203000" />
       <workItem from="1578849291179" duration="5859000" />
       <workItem from="1579259310480" duration="10238000" />
-      <workItem from="1579345883683" duration="627000" />
+      <workItem from="1579345883683" duration="2297000" />
+      <workItem from="1579438250966" duration="2397000" />
+      <workItem from="1579550749651" duration="969000" />
+      <workItem from="1579641817210" duration="1810000" />
+      <workItem from="1579792713088" duration="2267000" />
+      <workItem from="1579864348468" duration="6453000" />
+      <workItem from="1579951582913" duration="7332000" />
+      <workItem from="1579995173312" duration="3564000" />
+      <workItem from="1580026716330" duration="5007000" />
     </task>
     <task id="LOCAL-00001" summary="3">
       <created>1578861143727</created>
@@ -620,7 +667,21 @@
       <option name="project" value="LOCAL" />
       <updated>1578861143727</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="3">
+      <created>1579346688314</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579346688314</updated>
+    </task>
+    <task id="LOCAL-00003" summary="45">
+      <created>1579346740642</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1579346740642</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -631,7 +692,8 @@
       <path value="$PROJECT_DIR$/asmovie" />
     </ignored-roots>
     <MESSAGE value="3" />
-    <option name="LAST_COMMIT_MESSAGE" value="3" />
+    <MESSAGE value="45" />
+    <option name="LAST_COMMIT_MESSAGE" value="45" />
   </component>
   <component name="WindowStateProjectService">
     <state x="772" y="359" key="#Assign_Data_Sources" timestamp="1578513367498">
@@ -656,24 +718,24 @@
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
     <state x="772" y="359" key="#Notifications/2560.0.2560.1560/0.0.2560.1560@0.0.2560.1560" timestamp="1577328077768" />
-    <state x="772" y="359" key="#Project_Structure" timestamp="1578785042815">
+    <state x="772" y="359" key="#Project_Structure" timestamp="1579967518166">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
-    <state x="772" y="359" key="#Project_Structure/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578785042815" />
+    <state x="772" y="359" key="#Project_Structure/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1579967518166" />
     <state x="772" y="359" key="#Project_Structure/2560.0.2560.1560/0.0.2560.1560@0.0.2560.1560" timestamp="1577400367280" />
     <state x="772" y="360" key="#Tomcat_Server" timestamp="1578164554110">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
     <state x="772" y="360" key="#Tomcat_Server/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578164554110" />
-    <state x="734" y="432" width="1092" height="777" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578183067680">
+    <state x="734" y="432" width="1092" height="777" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579967550612">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
-    <state x="734" y="432" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578183067680" />
+    <state x="734" y="432" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1579967550612" />
     <state x="734" y="432" width="1092" height="777" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.0.2560.1560/0.0.2560.1560@0.0.2560.1560" timestamp="1577364724010" />
-    <state x="1041" y="400" key="#com.intellij.ide.util.MemberChooser" timestamp="1579279473055">
+    <state x="1041" y="400" key="#com.intellij.ide.util.MemberChooser" timestamp="1579952718919">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
-    <state x="1041" y="400" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1579279473055" />
+    <state x="1041" y="400" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1579952718919" />
     <state x="1041" y="400" key="#com.intellij.ide.util.MemberChooser/2560.0.2560.1560/0.0.2560.1560@0.0.2560.1560" timestamp="1577400661513" />
     <state x="943" y="494" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1577447122448">
       <screen x="0" y="0" width="2560" height="1560" />
@@ -683,10 +745,10 @@
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
     <state x="834" y="400" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/2560.0.2560.1560/0.0.2560.1560@0.0.2560.1560" timestamp="1577233280847" />
-    <state x="772" y="360" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1578164558444">
+    <state x="772" y="360" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1579967483101">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
-    <state x="772" y="360" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578164558444" />
+    <state x="772" y="360" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1579967483101" />
     <state x="772" y="360" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/2560.0.2560.1560/0.0.2560.1560@0.0.2560.1560" timestamp="1577200777772" />
     <state x="1020" y="681" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath" timestamp="1578859010274">
       <screen x="0" y="0" width="2560" height="1560" />
@@ -697,75 +759,83 @@
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
     <state x="950" y="229" key="#com.intellij.jpa.generation.ui.DatabaseSchemaImportDialog/2560.0.2560.1560/0.0.2560.1560@0.0.2560.1560" timestamp="1577233307520" />
-    <state x="677" y="310" key="CommitChangelistDialog2" timestamp="1579346687854">
+    <state x="677" y="310" key="CommitChangelistDialog2" timestamp="1579346751550">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
-    <state x="677" y="310" key="CommitChangelistDialog2/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1579346687854" />
+    <state x="677" y="310" key="CommitChangelistDialog2/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1579346751550" />
     <state x="92" y="92" width="2376" height="1376" key="DiffContextDialog" timestamp="1579346731751">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
     <state x="92" y="92" width="2376" height="1376" key="DiffContextDialog/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1579346731751" />
-    <state x="1009" y="464" key="FileChooserDialogImpl" timestamp="1578164550442">
+    <state x="1009" y="464" key="FileChooserDialogImpl" timestamp="1579967393613">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
-    <state x="1009" y="464" key="FileChooserDialogImpl/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578164550442" />
+    <state x="1009" y="464" key="FileChooserDialogImpl/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1579967393613" />
     <state x="1009" y="464" key="FileChooserDialogImpl/2560.0.2560.1560/0.0.2560.1560@0.0.2560.1560" timestamp="1577326166282" />
-    <state width="2505" height="415" key="GridCell.Tab.0.bottom" timestamp="1579310497810">
+    <state width="1727" height="430" key="GridCell.Tab.0.bottom" timestamp="1580043464670">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
-    <state width="2505" height="415" key="GridCell.Tab.0.bottom/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1579310497810" />
+    <state width="1727" height="430" key="GridCell.Tab.0.bottom/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1580028793721" />
+    <state width="1727" height="430" key="GridCell.Tab.0.bottom/2560.0.2560.1560/-1200.0.1200.1880/0.0.2560.1560@0.0.2560.1560" timestamp="1580043464670" />
     <state width="2505" height="415" key="GridCell.Tab.0.bottom/2560.0.2560.1560/0.0.2560.1560@0.0.2560.1560" timestamp="1577448843535" />
-    <state width="2505" height="415" key="GridCell.Tab.0.center" timestamp="1579310497810">
+    <state width="1727" height="430" key="GridCell.Tab.0.center" timestamp="1580043464669">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
-    <state width="2505" height="415" key="GridCell.Tab.0.center/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1579310497810" />
+    <state width="1727" height="430" key="GridCell.Tab.0.center/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1580028793721" />
+    <state width="1727" height="430" key="GridCell.Tab.0.center/2560.0.2560.1560/-1200.0.1200.1880/0.0.2560.1560@0.0.2560.1560" timestamp="1580043464669" />
     <state width="2505" height="415" key="GridCell.Tab.0.center/2560.0.2560.1560/0.0.2560.1560@0.0.2560.1560" timestamp="1577448843535" />
-    <state width="2505" height="415" key="GridCell.Tab.0.left" timestamp="1579310497810">
+    <state width="1727" height="430" key="GridCell.Tab.0.left" timestamp="1580043464669">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
-    <state width="2505" height="415" key="GridCell.Tab.0.left/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1579310497810" />
+    <state width="1727" height="430" key="GridCell.Tab.0.left/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1580028793721" />
+    <state width="1727" height="430" key="GridCell.Tab.0.left/2560.0.2560.1560/-1200.0.1200.1880/0.0.2560.1560@0.0.2560.1560" timestamp="1580043464669" />
     <state width="2505" height="415" key="GridCell.Tab.0.left/2560.0.2560.1560/0.0.2560.1560@0.0.2560.1560" timestamp="1577448843535" />
-    <state width="2505" height="415" key="GridCell.Tab.0.right" timestamp="1579310497810">
+    <state width="1727" height="430" key="GridCell.Tab.0.right" timestamp="1580043464669">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
-    <state width="2505" height="415" key="GridCell.Tab.0.right/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1579310497810" />
+    <state width="1727" height="430" key="GridCell.Tab.0.right/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1580028793721" />
+    <state width="1727" height="430" key="GridCell.Tab.0.right/2560.0.2560.1560/-1200.0.1200.1880/0.0.2560.1560@0.0.2560.1560" timestamp="1580043464669" />
     <state width="2505" height="415" key="GridCell.Tab.0.right/2560.0.2560.1560/0.0.2560.1560@0.0.2560.1560" timestamp="1577448843535" />
-    <state width="2505" height="529" key="GridCell.Tab.1.bottom" timestamp="1578863734906">
+    <state width="1727" height="430" key="GridCell.Tab.1.bottom" timestamp="1580043464622">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
-    <state width="2505" height="529" key="GridCell.Tab.1.bottom/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578863734906" />
+    <state width="1727" height="430" key="GridCell.Tab.1.bottom/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1580028793687" />
+    <state width="1727" height="430" key="GridCell.Tab.1.bottom/2560.0.2560.1560/-1200.0.1200.1880/0.0.2560.1560@0.0.2560.1560" timestamp="1580043464622" />
     <state width="1727" height="430" key="GridCell.Tab.1.bottom/2560.0.2560.1560/0.0.2560.1560@0.0.2560.1560" timestamp="1577407392217" />
-    <state width="2505" height="529" key="GridCell.Tab.1.center" timestamp="1578863734906">
+    <state width="1727" height="430" key="GridCell.Tab.1.center" timestamp="1580043464622">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
-    <state width="2505" height="529" key="GridCell.Tab.1.center/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578863734906" />
+    <state width="1727" height="430" key="GridCell.Tab.1.center/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1580028793687" />
+    <state width="1727" height="430" key="GridCell.Tab.1.center/2560.0.2560.1560/-1200.0.1200.1880/0.0.2560.1560@0.0.2560.1560" timestamp="1580043464622" />
     <state width="1727" height="430" key="GridCell.Tab.1.center/2560.0.2560.1560/0.0.2560.1560@0.0.2560.1560" timestamp="1577407392217" />
-    <state width="2505" height="529" key="GridCell.Tab.1.left" timestamp="1578863734906">
+    <state width="1727" height="430" key="GridCell.Tab.1.left" timestamp="1580043464622">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
-    <state width="2505" height="529" key="GridCell.Tab.1.left/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578863734906" />
+    <state width="1727" height="430" key="GridCell.Tab.1.left/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1580028793687" />
+    <state width="1727" height="430" key="GridCell.Tab.1.left/2560.0.2560.1560/-1200.0.1200.1880/0.0.2560.1560@0.0.2560.1560" timestamp="1580043464622" />
     <state width="1727" height="430" key="GridCell.Tab.1.left/2560.0.2560.1560/0.0.2560.1560@0.0.2560.1560" timestamp="1577407392217" />
-    <state width="2505" height="529" key="GridCell.Tab.1.right" timestamp="1578863734906">
+    <state width="1727" height="430" key="GridCell.Tab.1.right" timestamp="1580043464622">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
-    <state width="2505" height="529" key="GridCell.Tab.1.right/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578863734906" />
+    <state width="1727" height="430" key="GridCell.Tab.1.right/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1580028793687" />
+    <state width="1727" height="430" key="GridCell.Tab.1.right/2560.0.2560.1560/-1200.0.1200.1880/0.0.2560.1560@0.0.2560.1560" timestamp="1580043464622" />
     <state width="1727" height="430" key="GridCell.Tab.1.right/2560.0.2560.1560/0.0.2560.1560@0.0.2560.1560" timestamp="1577407392217" />
-    <state width="1727" height="430" key="GridCell.Tab.2.bottom" timestamp="1578183187394">
+    <state width="1727" height="430" key="GridCell.Tab.2.bottom" timestamp="1579967555009">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
-    <state width="1727" height="430" key="GridCell.Tab.2.bottom/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578183187394" />
-    <state width="1727" height="430" key="GridCell.Tab.2.center" timestamp="1578183187394">
+    <state width="1727" height="430" key="GridCell.Tab.2.bottom/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1579967555009" />
+    <state width="1727" height="430" key="GridCell.Tab.2.center" timestamp="1579967555009">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
-    <state width="1727" height="430" key="GridCell.Tab.2.center/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578183187394" />
-    <state width="1727" height="430" key="GridCell.Tab.2.left" timestamp="1578183187394">
+    <state width="1727" height="430" key="GridCell.Tab.2.center/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1579967555009" />
+    <state width="1727" height="430" key="GridCell.Tab.2.left" timestamp="1579967555009">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
-    <state width="1727" height="430" key="GridCell.Tab.2.left/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578183187394" />
-    <state width="1727" height="430" key="GridCell.Tab.2.right" timestamp="1578183187394">
+    <state width="1727" height="430" key="GridCell.Tab.2.left/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1579967555009" />
+    <state width="1727" height="430" key="GridCell.Tab.2.right" timestamp="1579967555009">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
-    <state width="1727" height="430" key="GridCell.Tab.2.right/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578183187394" />
+    <state width="1727" height="430" key="GridCell.Tab.2.right/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1579967555009" />
     <state x="697" y="357" key="Maven.ArtifactSearchDialog" timestamp="1577744650527">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
@@ -779,14 +849,15 @@
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
     <state x="92" y="92" width="2376" height="1376" key="ShowDiffWithBranchDialog/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578435660415" />
-    <state x="772" y="452" key="Vcs.Push.Dialog.v2" timestamp="1578523865716">
+    <state x="772" y="452" key="Vcs.Push.Dialog.v2" timestamp="1580078071141">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
     <state x="772" y="452" key="Vcs.Push.Dialog.v2/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578523865716" />
-    <state x="1085" y="656" width="389" height="264" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1579309510781">
+    <state x="772" y="452" key="Vcs.Push.Dialog.v2/2560.0.2560.1560/-1200.0.1200.1880/0.0.2560.1560@0.0.2560.1560" timestamp="1580078071141" />
+    <state x="1085" y="656" width="389" height="264" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1579953045188">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
-    <state x="1085" y="656" width="389" height="264" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1579309510781" />
+    <state x="1085" y="656" width="389" height="264" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1579953045188" />
     <state x="1108" y="656" key="com.intellij.database.actions.ToolActions$ScriptingActionBase$MyDatabaseScriptDialog" timestamp="1578513830919">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
@@ -809,11 +880,11 @@
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
     <state x="92" y="92" width="2376" height="1376" key="com.intellij.dvcs.ui.CompareBranchesDialog/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578435660415" />
-    <state x="926" y="567" key="com.intellij.ide.util.TipDialog" timestamp="1579345885498">
+    <state x="926" y="567" key="com.intellij.ide.util.TipDialog" timestamp="1580026733907">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
     <state x="-766" y="683" key="com.intellij.ide.util.TipDialog/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@-1200.0.1200.1880" timestamp="1578163558996" />
-    <state x="926" y="567" key="com.intellij.ide.util.TipDialog/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1579345885498" />
+    <state x="926" y="567" key="com.intellij.ide.util.TipDialog/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1580026733907" />
     <state x="926" y="567" key="com.intellij.ide.util.TipDialog/2560.0.2560.1560/0.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1577537177103" />
     <state x="926" y="567" key="com.intellij.ide.util.TipDialog/2560.0.2560.1560/0.0.2560.1560@0.0.2560.1560" timestamp="1577445698414" />
     <state x="933" y="665" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1577327235663">
@@ -824,15 +895,19 @@
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
     <state x="732" y="411" key="com.intellij.javaee.MapExternalResourceDialog/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1577645043571" />
-    <state x="1061" y="681" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579346701799">
+    <state x="1061" y="681" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579346773214">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
-    <state x="1061" y="681" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1579346701799" />
+    <state x="1061" y="681" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1579346773214" />
     <state x="1044" y="435" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1578860925291">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
     <state x="1044" y="435" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1578860925291" />
     <state x="1044" y="435" key="com.intellij.testIntegration.createTest.CreateTestDialog/2560.0.2560.1560/0.0.2560.1560@0.0.2560.1560" timestamp="1577447131529" />
+    <state x="2783" y="0" width="1287" height="1038" maximized="true" key="dock-window-1" timestamp="1579864630186">
+      <screen x="2560" y="0" width="2560" height="1560" />
+    </state>
+    <state x="2783" y="0" width="1287" height="1038" maximized="true" key="dock-window-1/0.0.2560.1560/2560.0.2560.1560/-1200.0.1200.1880@0.0.2560.1560" timestamp="1579864630186" />
     <state x="859" y="348" width="840" height="1034" key="search.everywhere.popup" timestamp="1577330746763">
       <screen x="0" y="0" width="2560" height="1560" />
     </state>
