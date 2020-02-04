@@ -22,6 +22,7 @@
         <class>asmovieDao.Mitwirkende</class>
         <class>asmovieDao.Funktion</class>
         <class>asmovieDao.Medium</class>
+        <class>asmovieDao.Coverfront</class>
 
 
 
@@ -36,7 +37,7 @@
 
 
             <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQL94Dialect"/> <!-- DB Dialect -->
-            <property name="hibernate.hbm2ddl.auto" value="update" /> <!-- create / create-drop / update -->
+            <property name="hibernate.hbm2ddl.auto" value="create-drop" /> <!-- create / create-drop / update -->
             
             <property name="hibernate.show_sql" value="true" /> <!-- Show SQL in console -->
             <property name="hibernate.format_sql" value="true" />
