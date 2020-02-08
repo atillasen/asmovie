@@ -1,8 +1,16 @@
 package tools;
 
 import java.io.File;
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.DocumentBuilder;
+
+import asmovieDao.Coverfront;
+import asmovieDao.Darsteller;
+import asmovieDao.Media;
+import asmovieDao.Person;
 import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
 import org.w3c.dom.Node;
@@ -13,8 +21,16 @@ public class Dom {
 
     public static void main(String [] args)  {
 
-        String coverfront;
-        String poster;
+
+
+
+        EntityManagerFactory emf= Persistence.createEntityManagerFactory("asmovie-jpa");
+        EntityManager em = emf.createEntityManager();
+
+        Person person = new Person();
+        Media media = new Media();
+        Darsteller darsteller = new Darsteller();
+        Coverfront coverfront = new Coverfront();
 
         try{
             File inputFile = new File("movies.xml");
@@ -35,9 +51,38 @@ public class Dom {
                     Element eElement = (Element) nNode;
 
                     System.out.println(eElement.getElementsByTagName("coverfront").item(0).getTextContent());
+                    try {
 
+                        System.out.println(eElement.getElementsByTagName("poster").item(0).getTextContent());
+                    }catch(Exception e){
+                        e.printStackTrace();
+                    }
 
+                    try {
 
+                        System.out.println(eElement.getElementsByTagName("backdropurl").item(0).getTextContent());
+                    }catch(Exception e){
+                        e.printStackTrace();
+                    }
+
+                    try {
+
+                        System.out.println(eElement.getElementsByTagName("imdburl").item(0).getTextContent());
+                    }catch(Exception e){
+                        e.printStackTrace();
+                    }
+
+                }
+
+                try {
+                    em.getTransaction().begin();
+                    em.persist(person);
+                    em.persist(darsteller);
+                    em.persist(media);
+                    em.getTransaction().commit();
+
+                }catch (Exception ex){
+                    em.getTransaction().rollback();
                 }
 
 

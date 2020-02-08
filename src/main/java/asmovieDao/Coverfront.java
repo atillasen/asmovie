@@ -16,8 +16,19 @@ public class Coverfront implements Serializable {
 
     @Lob
     @Basic(fetch = FetchType.LAZY)
-    private byte[] coverfront; 
+    private byte[] coverfront;
 
+    @ManyToOne
+    @JoinColumn(name = "media_id", nullable = false)
+    private Media media;
+
+    public Media getMedia() {
+        return media;
+    }
+
+    public void setMedia(Media media) {
+        this.media = media;
+    }
 
     public byte[] getCoverfront() {
         return coverfront;

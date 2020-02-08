@@ -88,11 +88,30 @@ public class Media implements Serializable {
     @JoinColumn(name ="fsk_id")
     private Fsk fsk;
 
+    @OneToMany(cascade = CascadeType.PERSIST,mappedBy = "coverfront")
+    private Set<Coverfront> coverfronts = new HashSet<>();
+
 
 
 
     public Media(){
 
+    }
+
+    public List<Mitwirkende> getMitwirkendeList() {
+        return mitwirkendeList;
+    }
+
+    public void setMitwirkendeList(List<Mitwirkende> mitwirkendeList) {
+        this.mitwirkendeList = mitwirkendeList;
+    }
+
+    public Set<Coverfront> getCoverfronts() {
+        return coverfronts;
+    }
+
+    public void setCoverfronts(Set<Coverfront> coverfronts) {
+        this.coverfronts = coverfronts;
     }
 
     public Sprache getSprache() {
